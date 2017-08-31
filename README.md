@@ -28,7 +28,9 @@ Use Ubuntu 16.04 LTS.
 
 Compile Monero source (with shared libraries option):
 
-    apt-get install git cmake build-essential libssl-dev pkg-config libboost-all-dev
+    apt-get install git cmake build-essential libssl-dev pkg-config libboost-all-dev graphviz
+    mkdir  /opt/mining
+    cd /opt/mining
     git clone https://github.com/monero-project/monero.git
     cd monero
     git checkout tags/v0.10.3.1 -b v0.10.3.1
